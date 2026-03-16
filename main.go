@@ -80,11 +80,11 @@ func startTraining(charName, charClass string) string {
 		fmt.Scanf("%s\n", &cmd)
 
 		switch {
-		case cmd == "attack" 
+		case cmd == "attack": 
 			fmt.Println(attack(charName, charClass))
-		case cmd == "defence" 
+		case cmd == "defence": 
 			fmt.Println(defence(charName, charClass))
-		case cmd == "special" 
+		case cmd == "special": 
 			fmt.Println(special(charName, charClass))
 		default:
 			fmt.Println("неизвестная команда")
