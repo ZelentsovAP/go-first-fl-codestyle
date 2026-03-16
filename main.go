@@ -7,7 +7,7 @@ import (
 )
 
 func randint(min, max int) int {
-	return ranf.Intn(max-min) + min
+	return rand.Intn(max-min) + min
 }
 
 func attack(charName, charClass string) string {
